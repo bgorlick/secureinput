@@ -199,6 +199,7 @@ This project is (c) 2024 Ben Gorlick, and is licensed under the MIT License - se
 ## Acknowledgments
 
 - This project was inspired by the need for secure input handling in cryptographic applications.
+- Also inspired by fellow low level coding enthusiast dr-Jonas-Birch who has a YT chan worth checking out and did something very similar!
 - Special thanks to the open-source community for their invaluable resources on constant-time programming and side-channel attack prevention.
 
 ## Disclaimer

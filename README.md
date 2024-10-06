@@ -158,14 +158,20 @@ For more examples, check the `examples/` directory in the repository.
 ## Testing
 
 To build the constant-time test suite:
+```
 make test_const_time
+```
 
 To build and run the constant-time test suite:
+```
 make run_test_const_time
+```
 
 To run benchmarks:
+```
 make bench
 ./bench_secureinput
+```
 
 ## Development
 
@@ -176,11 +182,12 @@ When developing or debugging, you can use the following options:
 - Enable optimizations: make OPTIMIZE=1
 
 You can combine these options as needed. For example, to build with debug symbols and AddressSanitizer:
-make DEBUG=1 SANITIZE=1
+```make DEBUG=1 SANITIZE=1```
 
 For a full list of available make targets and options, run:
+```
 make help
-
+```
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.

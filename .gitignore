@@ -1,0 +1,101 @@
+# Compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Compiled dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Project-specific executables
+secureinput
+bench_secureinput
+test_const_time
+
+# Build directories
+build/
+bin/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependency directories
+deps/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Backup files
+*.bak
+
+# Core dumps
+core
+
+# Patch files
+*.patch
+
+# Assembly preprocessed files
+*.i
+*.s
+
+# Makefile generated files
+.deps
+.dirstamp
+
+# gcov files
+*.gcno
+*.gcda
+*.gcov
+
+# Valgrind files
+vgcore.*
+
+# Custom backup files
+*.BAK
+*.bak
+*.orig

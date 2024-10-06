@@ -1,0 +1,3 @@
+option('enable_debug', type : 'boolean', value : false, description : 'Enable debug mode')
+option('enable_optimize', type : 'boolean', value : false, description : 'Enable optimizations')
+option('enable_sanitize', type : 'string', value : 'none', description : 'Enable sanitizer (none, address)')

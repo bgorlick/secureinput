@@ -134,7 +134,9 @@ For full API details, refer to `include/secureinput.h`.
 
 ## Examples
 
-Here's a basic example of using SecureInput to read a password:#include <stdio.h>
+Here's a basic example of using SecureInput to read a password:
+```c
+#include <stdio.h>
 #include <secureinput.h>
 
 int main() {
@@ -150,7 +152,7 @@ int main() {
     free_pw_state(&pwstate);
     return 0;
 }
-
+```
 For more examples, check the `examples/` directory in the repository.
 
 ## Testing
